@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter"
+}
+
+
+/* common class */
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.btn {
+    margin: 4px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-color: rgba(70, 145, 101, 1);
+    border: none;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+
+/* main class */
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    margin: 16px;
+}
+
+.nav-bar .nav-links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover {
+    color: green;
+}
