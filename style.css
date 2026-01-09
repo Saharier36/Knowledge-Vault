@@ -105,7 +105,7 @@ a:hover {
 }
 
 /* card section */
-.card-section-container {
+.card-section {
   text-align: center;
 }
 
@@ -143,4 +143,48 @@ a:hover {
 
 .card-content p {
   color: rgba(98, 115, 130, 1);
+}
+
+/* second brain section */
+.second-brain-section {
+  display: flex;
+  align-items: center;
+  margin: 120px 0;
+  gap: 60px;
+}
+
+.second-brain-img {
+  border-radius: 12px;
+}
+
+.second-brain-container h4 {
+  color: rgba(70, 145, 101, 1);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.second-brain-container h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.second-brain-container p {
+  color: rgba(98, 115, 130, 1);
+  margin-bottom: 32px;
+}
+
+.second-brain-container li {
+  font-style: medium;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(0, 25, 49, 1);
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.second-brain-container li::before {
+  content: url(./assets/CheckCircle.png);
+  margin-right: 10px;
+  vertical-align: middle;
 }
